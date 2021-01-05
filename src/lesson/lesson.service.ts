@@ -1,4 +1,4 @@
-import { HttpService, Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CreateLessonInput } from './dto/lesson.input';
 import { Lesson } from './lesson.entity';
@@ -9,7 +9,6 @@ export class LessonService {
   constructor(
     @InjectRepository(LessonRepository)
     private lessonRepository: LessonRepository,
-    private http: HttpService,
   ) {}
 
   async createLesson(createLessonInput: CreateLessonInput): Promise<Lesson> {
