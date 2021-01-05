@@ -1,3 +1,7 @@
+<h1>
+  This project was created with the purpose of understand how GraphQL works in NestJS framework.
+</h1>
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
