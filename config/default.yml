@@ -1,0 +1,19 @@
+server:
+  port: 3000
+
+db:
+  type: 'mongodb'
+  host: 'mongosecurity-an-shard-00-02.lhn81.mongodb.net'
+  database: 'school'
+  username: 'schoolUser'
+  password: '1DlRWKn0ms1knr8E'
+  port: 27017
+  synchronize: true
+  useUnifiedTopology: true
+  useNewUrlParser: true
+  replicaSet: 'MongoSecurity-AN-shard-0'
+  authSource: 'admin'
+  ssl: true
+
+jwt:
+  expiresIn: 3600
